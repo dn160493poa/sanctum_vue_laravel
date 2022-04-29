@@ -41,8 +41,7 @@ __webpack_require__.r(__webpack_exports__);
           _this.$router.push({
             name: 'user.personal'
           });
-        })["catch"](function (error) {
-          console.log(error.response);
+        })["catch"](function (error) {//console.log(error.response)
         });
       });
     }

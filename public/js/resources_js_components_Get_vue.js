@@ -24,8 +24,7 @@ __webpack_require__.r(__webpack_exports__);
   },
   methods: {
     getData: function getData() {
-      axios.get('/api/get').then(function (res) {
-        console.log(res);
+      axios.get('/api/get').then(function (res) {//console.log(res);
       });
     }
   }

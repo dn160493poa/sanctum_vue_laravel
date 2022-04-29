@@ -26,7 +26,7 @@ export default {
                         this.$router.push({name : 'user.personal'})
                     })
                     .catch( error => {
-                        console.log(error.response)
+                        //console.log(error.response)
                     })
             });
         }
